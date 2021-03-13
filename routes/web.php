@@ -18,3 +18,4 @@ Route::get('/today-special', [App\Http\Controllers\HomeController::class, 'today
 Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu']);
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact']);
 Route::get('/barang', [App\Http\Controllers\BarangController::class, 'index']);
+Route::get('/pelanggan', [App\Http\Controllers\PelangganController::class, 'index']);

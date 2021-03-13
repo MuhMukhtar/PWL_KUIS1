@@ -6,17 +6,17 @@
         <tr>
           <th scope="col">Id</th>
           <th scope="col">Name</th>
-          <th scope="col">Desc</th>
-          <th scope="col">Stock</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Address</th>
         </tr>
       </thead>
       <tbody>
-        @foreach ($barangs as $item)
+        @foreach ($pelanggans as $item)
         <tr>
           <th scope="row">{{$item->id}}</th>
           <td>{{$item->name}}</td>
-          <td>{{$item->desc}}</td>
-          <td>{{$item->stock}}</td>
+          <td>{{$item->phone}}</td>
+          <td>{{$item->address}}</td>
         </tr>
         @endforeach
       </tbody>
